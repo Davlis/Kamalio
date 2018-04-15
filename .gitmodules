@@ -1,0 +1,4 @@
+[submodule "app/kamalio-backend-rest"]
+	path = app/kamalio-backend-rest
+	url = https://github.com/Davlis/kamalio-backend-rest
+	branch = development
