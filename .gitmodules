@@ -1,3 +1,6 @@
 [submodule "app/kamalio-backend-rest"]
 	path = app/kamalio-backend-rest
 	url = https://github.com/Davlis/kamalio-backend-rest
+[submodule "app/kamalio-native-app"]
+	path = app/kamalio-native-app
+	url = https://github.com/Davlis/kamalio-native-app
