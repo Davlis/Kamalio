@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>d964f377-cd3d-4e5c-9db5-abbf319873e5.DATABASE:kamalio</OriginalElement>
+  <nodes>
+    <node x="502.99999999999994" y="193.0">d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Posts</node>
+    <node x="1299.5" y="216.0">d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Karmas</node>
+    <node x="807.0" y="435.0">d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Comments</node>
+    <node x="688.0" y="0.0">d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Users</node>
+    <node x="1015.5" y="216.0">d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.UserNotificationSettings</node>
+    <node x="1583.4999999999998" y="193.0">d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Notifications</node>
+    <node x="10.5" y="204.5">d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.UserUploads</node>
+    <node x="367.8035714285714" y="687.0">d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.CommentVotes</node>
+    <node x="218.99999999999994" y="446.5">d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.PostVotes</node>
+    <node x="502.99999999999994" y="446.5">d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.PostLocations</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.UserNotificationSettings" target="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Users">
+      <point x="0.0" y="-73.0" />
+      <point x="1147.5" y="163.0" />
+      <point x="869.5" y="163.0" />
+      <point x="49.5" y="61.5" />
+    </edge>
+    <edge source="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Comments" target="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Users">
+      <point x="66.0" y="-96.0" />
+      <point x="1005.0" y="173.0" />
+      <point x="836.5" y="173.0" />
+      <point x="16.5" y="61.5" />
+    </edge>
+    <edge source="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.PostVotes" target="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Posts">
+      <point x="66.0" y="-84.5" />
+      <point x="416.99999999999994" y="410.0" />
+      <point x="547.0" y="410.0" />
+      <point x="-88.0" y="96.0" />
+    </edge>
+    <edge source="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Comments" target="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Posts">
+      <point x="-66.0" y="-96.0" />
+      <point x="873.0" y="410.0" />
+      <point x="723.0" y="410.0" />
+      <point x="88.0" y="96.0" />
+    </edge>
+    <edge source="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.PostVotes" target="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Users">
+      <point x="-66.0" y="-84.5" />
+      <point x="284.99999999999994" y="163.0" />
+      <point x="770.5" y="163.0" />
+      <point x="-49.5" y="61.5" />
+    </edge>
+    <edge source="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Notifications" target="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Users">
+      <point x="0.0" y="-96.0" />
+      <point x="1715.4999999999998" y="143.0" />
+      <point x="935.5" y="143.0" />
+      <point x="115.5" y="61.5" />
+    </edge>
+    <edge source="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.UserUploads" target="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Users">
+      <point x="0.0" y="-84.5" />
+      <point x="142.5" y="153.0" />
+      <point x="737.5" y="153.0" />
+      <point x="-82.5" y="61.5" />
+    </edge>
+    <edge source="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Comments" target="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Comments">
+      <point x="-66.0" y="96.0" />
+      <point x="873.0" y="647.0" />
+      <point x="787.0" y="647.0" />
+      <point x="787.0" y="531.0" />
+      <point x="-132.0" y="-0.0" />
+    </edge>
+    <edge source="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.CommentVotes" target="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Comments">
+      <point x="66.0" y="-84.5" />
+      <point x="565.8035714285713" y="667.0" />
+      <point x="1005.0" y="667.0" />
+      <point x="66.0" y="96.0" />
+    </edge>
+    <edge source="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.CommentVotes" target="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Users">
+      <point x="-66.0" y="-84.5" />
+      <point x="433.8035714285714" y="667.0" />
+      <point x="0.0" y="667.0" />
+      <point x="0.0" y="143.0" />
+      <point x="704.5" y="143.0" />
+      <point x="-115.5" y="61.5" />
+    </edge>
+    <edge source="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Posts" target="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Users">
+      <point x="0.0" y="-96.0" />
+      <point x="635.0" y="173.0" />
+      <point x="803.5" y="173.0" />
+      <point x="-16.5" y="61.5" />
+    </edge>
+    <edge source="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Karmas" target="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Users">
+      <point x="0.0" y="-73.0" />
+      <point x="1431.5" y="153.0" />
+      <point x="902.5" y="153.0" />
+      <point x="82.5" y="61.5" />
+    </edge>
+    <edge source="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.PostLocations" target="d964f377-cd3d-4e5c-9db5-abbf319873e5.TABLE:kamalio.public.Posts">
+      <point x="0.0" y="-84.5" />
+      <point x="0.0" y="96.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.710172744721689" x="771.5" y="283.9837837837838" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
